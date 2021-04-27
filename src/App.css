@@ -1,5 +1,5 @@
 body {
-  background-image: url(./Assets/Background.jpg);
+  background-image: url(./assets/Background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -10,19 +10,19 @@ body {
 }
 
 .home {
-  background-image: url(./Assets/homepage_background.jpg)
+  background-image: url(./assets/homepage_background.jpg)
 }
 
 .aboutme {
-  background-image: url(./Assets/aboutme_background.jpg)
+  background-image: url(./assets/aboutme_background.jpg)
 }
 
 .portfolio {
-  background-image: url(./Assets/portfolio_bg.jpg);
+  background-image: url(./assets/portfolio_bg.jpg);
 }
 
 .contact {
-  background-image: url(./Assets/contact_background.jpg)
+  background-image: url(./assets/contact_background.jpg)
 }
 
 .main-heading {
