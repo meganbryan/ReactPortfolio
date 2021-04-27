@@ -1,30 +1,13 @@
 import React from "react";
 import Portfolio1 from "../assets/Portfolio_1.jpg";
 import Portfolio2 from "../assets/Portfolio_2.jpg";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 function AboutMe() {
     return (
         <div className = "aboutme">
-            <nav className="navbar navbar-expand-lg navbar-dark text-light mb-5 opaque-navbar">
-                <a className="navbar-brand" href="/"><h1>Megan Bryan</h1></a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active mr-1">
-                            <a className="nav-link" href="/">About Me<span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item active mr-1">
-                            <a className="nav-link" href="/portfolio">Portfolio<span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item active mr-1">
-                            <a className="nav-link" href="/contact">Contact<span className="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <Navbar />
             <div className="row">
                 <div className="col-lg-2 col-sm-1">
                     {/* Empty column */}
@@ -39,10 +22,10 @@ function AboutMe() {
                                 <h1 className="m-3 text-right">About Me</h1>
                             </div>
                             <p className= "m-3 text-right">
-                                I am a current Web Development student, based just outside of Los Angeles, CA. I also have a Bachelor's Degree in Physics, with minor studies in Math and Astronomy, from the University of Redlands (located in Redlands, CA).
+                                "I am a current Web Development student, based just outside of Los Angeles, CA. I also have a Bachelor's Degree in Physics, with minor studies in Math and Astronomy, from the University of Redlands (located in Redlands, CA)."
                             </p>
                             <p className= "m-3 text-right">
-                                My professional background is in STEM Education and Aquatic Athletics instruction. I'm hoping to make a 'splash' in the Web Development community, and someday return to Education to pass on my experience to the next generation of Young Women in STEM.
+                                "My professional background is in STEM Education and Aquatic Athletics instruction. I'm hoping to make a 'splash' in the Web Development community, and someday return to Education to pass on my experience to the next generation of Young Women in STEM."
                             </p>
                         </div>
                     </div>
