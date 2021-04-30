@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
@@ -9,9 +9,9 @@ function App() {
   return (
       <Router>
         <div>
-          <Route exact path="/" component={AboutMe} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route path="/" component={AboutMe} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/portfolio" component={Portfolio} />
         </div>
       </Router>
   );
