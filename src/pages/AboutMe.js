@@ -1,8 +1,10 @@
 import React from "react";
 import Portfolio1 from "../assets/Portfolio_1.jpg";
 import Portfolio2 from "../assets/Portfolio_2.jpg";
+import Resume from "../assets/Resume-MB.pdf";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 function AboutMe() {
     return (
@@ -45,10 +47,10 @@ function AboutMe() {
                                 <h1 className="m-3 mb-4 text-left">Inquiries</h1>
                             </div>
                             <p className= "m-3 text-left">
-                                If you are interested in viewing my full body of work, please visit my <a className = "link" href="https://github.com/meganbryan">Github Profile</a>, or for samples, refer to the <a className = "link" href="/portfolio">Portfolio Page</a> of my website. I am also on <a className = "link" href="https://www.linkedin.com/in/megan-bryan-webdevelopment/">LinkedIn</a>, and my full resume is available <a className = "link" href="./assets/Resume-MB.pdf">here</a>. 
+                                If you are interested in viewing my full body of work, please visit my <a className = "link" href="https://github.com/meganbryan">Github Profile</a>, or for samples, refer to the <Link to = "/portfolio" className = "link">Portfolio Page</Link> of my website. I am also on <a className = "link" href="https://www.linkedin.com/in/megan-bryan-webdevelopment/">LinkedIn</a>, and my full resume is available <a className = "link" href={Resume} target = "_blank" rel="noreferrer">here</a>. 
                             </p>
                             <p className= "m-3 text-left">
-                                If you require any additional information, please reach out via my contact page, where you can also find my most current information. I look forward to future collaborations with you!
+                                If you require any additional information, please reach out via my <Link to = '/contact' className = "link"> contact page </Link>, where you can also find my most current information. I look forward to future collaborations with you!
                             </p>
                         </div>
                         <div className="col-lg-5 col-md-6 col-sm-12 container2 float-left">
