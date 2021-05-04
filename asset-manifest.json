@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.e7dedafa.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.57a2920c.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.57a2920c.chunk.js.map",
+    "main.js": "/ReactPortfolio/static/js/main.f7eb1e3d.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.f7eb1e3d.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.ed3f0fb7.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.ed3f0fb7.js.map",
     "static/js/2.bf8a8bc0.chunk.js": "/ReactPortfolio/static/js/2.bf8a8bc0.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/App.css": "/ReactPortfolio/static/media/portfolio_bg.4606c9db.jpg",
     "static/media/Portfolio_1.d5eaccc3.jpg": "/ReactPortfolio/static/media/Portfolio_1.d5eaccc3.jpg",
     "static/media/Portfolio_2.de3f358a.jpg": "/ReactPortfolio/static/media/Portfolio_2.de3f358a.jpg",
+    "static/media/Resume-MB.e9fb36b8.pdf": "/ReactPortfolio/static/media/Resume-MB.e9fb36b8.pdf",
     "static/media/SS_1.cf0cc2ca.jpeg": "/ReactPortfolio/static/media/SS_1.cf0cc2ca.jpeg",
     "static/media/SS_2.f98ed4e7.jpeg": "/ReactPortfolio/static/media/SS_2.f98ed4e7.jpeg",
     "static/media/SS_3.c291c7ed.jpeg": "/ReactPortfolio/static/media/SS_3.c291c7ed.jpeg",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.ed3f0fb7.js",
     "static/js/2.bf8a8bc0.chunk.js",
     "static/css/main.e7dedafa.chunk.css",
-    "static/js/main.57a2920c.chunk.js"
+    "static/js/main.f7eb1e3d.chunk.js"
   ]
 }
